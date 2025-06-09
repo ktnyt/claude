@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "mise",
+      "args": [
+        "exec",
+        "node@latest",
+        "--",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "$HOME/.claude/memory.json"
+      }
+    },
+    "fetch": {
+      "command": "mise",
+      "args": ["exec", "node@latest", "--", "uvx", "mcp-server-fetch"]
+    },
+    "time": {
+      "command": "mise",
+      "args": [
+        "exec",
+        "uv@latest",
+        "--",
+        "uvx",
+        "mcp-server-time",
+        "--local-timezone=Asia/Tokyo"
+      ]
+    }
+  }
+}
