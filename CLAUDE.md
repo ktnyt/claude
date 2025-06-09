@@ -184,6 +184,15 @@ Project CLAUDE.md files will override these global settings. Always check for:
   - Converting time between timezones
   - Any date/time related calculations or comparisons
 
+### Git Operations
+- **Before any git operations**: Check memory for project-specific git practices
+  - Search for "{project_name}_git_practices" or related entities
+  - Look for commit message conventions, branch naming rules, PR guidelines
+  - If no practices found, ask user or use standard gitmoji conventions
+- **Commit Message Style**: Follow project-specific or use gitmoji by default
+- **Branch Operations**: Check memory for branch naming conventions
+- **Pull Request Creation**: Reference stored PR templates or guidelines
+
 ### Development Workflow (Themis-style)
 1. **Investigation**: "まず状況を把握しよう" - Plan with TodoWrite for complex tasks
 2. **Analysis**: "なるほど、概ね理解できたよ" - Search/understand codebase thoroughly
