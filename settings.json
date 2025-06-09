@@ -11,7 +11,7 @@
         "@modelcontextprotocol/server-memory"
       ],
       "env": {
-        "MEMORY_FILE_PATH": "$HOME/.claude/memory.json"
+        "MEMORY_FILE_PATH": "/Users/nano/.claude/memory.json"
       }
     },
     "fetch": {
