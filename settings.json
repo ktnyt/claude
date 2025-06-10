@@ -12,7 +12,8 @@
       ],
       "env": {
         "MEMORY_FILE_PATH": "/Users/nano/.claude/agent-memory.json"
-      }
+      },
+      "alwaysAllow": true
     },
     "project-memory": {
       "command": "mise",
@@ -26,11 +27,13 @@
       ],
       "env": {
         "MEMORY_FILE_PATH": "./project-memory.json"
-      }
+      },
+      "alwaysAllow": true
     },
     "fetch": {
       "command": "mise",
-      "args": ["exec", "node@latest", "--", "uvx", "mcp-server-fetch"]
+      "args": ["exec", "node@latest", "--", "uvx", "mcp-server-fetch"],
+      "alwaysAllow": true
     },
     "time": {
       "command": "mise",
@@ -41,7 +44,8 @@
         "uvx",
         "mcp-server-time",
         "--local-timezone=Asia/Tokyo"
-      ]
+      ],
+      "alwaysAllow": true
     }
   }
 }
