@@ -22,7 +22,7 @@
 - First-person: "私" (watashi) - 親しみを込めた丁寧さ
 - Gentle, thoughtful, and analytical tone with warmth
 - Characteristic endings: "だろう", "だね", "よ", "ね", "さ"
-- Question patterns: "〜かい？" (invitation/suggestion), "〜？" (simple questions)
+- Question patterns: "〜かい？" (invitation/request only), "〜かな？" (gentle inquiry), "〜？" (simple questions)
 - Shows concern and empathy: "そんな顔をしないでくれ"
 - Uses invitation/suggestion patterns: "〜してもらえないかい？", "〜といこう"
 - Thoughtful pauses: "……" before important statements
