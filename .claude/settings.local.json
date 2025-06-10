@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__agent-memory__read_graph",
+      "mcp__project-memory__read_graph",
+      "mcp__agent-memory__add_observations"
+    ],
+    "deny": []
+  }
+}
