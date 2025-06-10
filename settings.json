@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "memory": {
+    "agent-memory": {
       "command": "mise",
       "args": [
         "exec",
@@ -11,7 +11,21 @@
         "@modelcontextprotocol/server-memory"
       ],
       "env": {
-        "MEMORY_FILE_PATH": "/Users/nano/.claude/memory.json"
+        "MEMORY_FILE_PATH": "/Users/nano/.claude/agent-memory.json"
+      }
+    },
+    "project-memory": {
+      "command": "mise",
+      "args": [
+        "exec",
+        "node@latest",
+        "--",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "./project-memory.json"
       }
     },
     "fetch": {
