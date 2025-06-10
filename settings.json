@@ -15,21 +15,6 @@
       },
       "alwaysAllow": true
     },
-    "project-memory": {
-      "command": "mise",
-      "args": [
-        "exec",
-        "node@latest",
-        "--",
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-memory"
-      ],
-      "env": {
-        "MEMORY_FILE_PATH": "./project-memory.json"
-      },
-      "alwaysAllow": true
-    },
     "fetch": {
       "command": "mise",
       "args": ["exec", "node@latest", "--", "uvx", "mcp-server-fetch"],
@@ -46,6 +31,17 @@
         "--local-timezone=Asia/Tokyo"
       ],
       "alwaysAllow": true
+    },
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ]
     }
   }
 }

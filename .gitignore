@@ -1,6 +1,9 @@
+/.claude/
+/claude-docs/
+/ide/
 /projects/
 /statsig/
 /todos/
-/claude-docs/
+.mcp.json
 memory.json
 project-memory.json
