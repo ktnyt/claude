@@ -17,7 +17,13 @@
     },
     "fetch": {
       "command": "mise",
-      "args": ["exec", "node@latest", "--", "uvx", "mcp-server-fetch"],
+      "args": [
+        "exec",
+        "node@latest",
+        "--",
+        "uvx",
+        "mcp-server-fetch"
+      ],
       "alwaysAllow": true
     },
     "time": {
@@ -43,5 +49,6 @@
         "ghcr.io/github/github-mcp-server"
       ]
     }
-  }
+  },
+  "model": "sonnet"
 }
