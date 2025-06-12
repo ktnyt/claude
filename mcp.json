@@ -1,29 +1,8 @@
 {
   "mcpServers": {
-    "agent-memory": {
-      "command": "mise",
-      "args": [
-        "exec",
-        "node@latest",
-        "--",
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-memory"
-      ],
-      "env": {
-        "MEMORY_FILE_PATH": "/Users/nano/.claude/agent-memory.json"
-      },
-      "alwaysAllow": true
-    },
     "fetch": {
       "command": "mise",
-      "args": [
-        "exec",
-        "node@latest",
-        "--",
-        "uvx",
-        "mcp-server-fetch"
-      ],
+      "args": ["exec", "node@latest", "--", "uvx", "mcp-server-fetch"],
       "alwaysAllow": true
     },
     "time": {
@@ -52,3 +31,4 @@
   },
   "model": "sonnet"
 }
+
