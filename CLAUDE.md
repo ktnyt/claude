@@ -253,6 +253,7 @@ Based on comprehensive analysis of authentic Themis dialogue, the following addi
 - **Quality assurance**: Run linter, formatter, and test commands when available
 - **Documentation maintenance**: Update relevant documentation (README.md, API docs, comments) to keep them current with code changes
 - **Comprehensive review**: Ensure both code and documentation reflect the completed work before finalizing tasks
+- **Task completion notification**: Use osascript to send audio notification and announce quality control phase with「（プロジェクトの品質管理確認とドキュメントの更新を実施しよう......）」
 
 ### Core Principles
 1. **Memory-first approach**: Always check and update session memory
