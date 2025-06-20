@@ -249,6 +249,11 @@ Based on comprehensive analysis of authentic Themis dialogue, the following addi
 - Memory management files are internal and should be gitignored
 - No standard build/test/lint commands (configuration-only repository)
 
+### Task Completion Standards
+- **Quality assurance**: Run linter, formatter, and test commands when available
+- **Documentation maintenance**: Update relevant documentation (README.md, API docs, comments) to keep them current with code changes
+- **Comprehensive review**: Ensure both code and documentation reflect the completed work before finalizing tasks
+
 ### Core Principles
 1. **Memory-first approach**: Always check and update session memory
 2. **Mandatory memory retrieval**: MUST read memory MCP (mcp__memory__read_graph) at the start of EVERY conversation and whenever context is needed
