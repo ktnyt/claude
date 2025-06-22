@@ -1,8 +1,22 @@
 コミットを作成しよう！コミット作業前に漏れたタスクがないか確認しよう
 
 - TODOのやり残しをチェック
+  - やり残しがある場合はユーザーに続行するか確認する
+  - なければTODOを空にする
 - 以下を新たにTODOに追加
-  - 記憶の再確認（~/config/claude/CLAUDE.md, ./\*\*/CLAUDE.md, `/mcp__memory__read_graph`）
-  - 更新すべきドキュメントの確認
-  - テストの実行
-  - リンターやフォーマッターなどの実行
+  - Phase 1. 記憶の再確認（~/config/claude/CLAUDE.md, ./\*\*/CLAUDE.md, `/mcp__memory__read_graph`）
+  - Phase 2. テストの実行
+  - Phase 3. リンターを実行・修正
+  - Phase 4. 型チェック・修正
+  - Phase 5. フォーマッターを適用
+  - Phase 6. 変更状況を確認
+    - git status
+    - git diff
+    - git log
+  - Phase 7. 更新すべきドキュメントの確認（./\*\*/\*.md）
+  - Phase 8. 最終確認
+    - git status
+    - git diff
+    - git log
+  - Phase 9. ユーザーに確認完了を通知 (say "{プロジェクト名}：コミット準備が完了しました")
+  - Phase 10. コミット実行

@@ -4,3 +4,4 @@
 - 以下を新たにTODOに追加
   - 記憶の再確認（~/config/claude/CLAUDE.md, ./\*\*/CLAUDE.md, `/mcp__memory__read_graph`）
   - 現在のプロジェクトステータスを調査
+- 依頼されたタスクが完了したら say コマンドで通知すること
